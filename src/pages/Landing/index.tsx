@@ -12,53 +12,42 @@ function Landing(){
 
 return (
 
-<div id="page-landing">
+    <div id="page-landing">
 
-<div id="page-landing-content" className="container">
+            <div id="page-landing-content" className="container">
 
-<div id="logo-container">
+                <div className="logo-container">
 
-<img src={logoImg} alt="Proffy" id="scr"/>
-<h2>Sua plataforma de estudos Online .</h2>
+                <img src={logoImg} alt="Proffy"/>
+                 <h2>Sua plataforma de estudos online.</h2>   
+                </div>
 
-<img 
-    src={landingImg} 
-    alt="Plataforma de estudos" 
-    className="hero-image"
-/>
+                <img src={landingImg} alt="" className="hero-image" />
 
-<div className="buttons-container">
-    <a href="" className="study">
-        <img src={studyIcon} alt="Estudar" />
-        Estudar
-        </a>
+                <div className="buttons-container">
 
+                    <a href="" className="study">
+                        <img src={studyIcon} alt="Estudar" />
+                        Estudar
 
-        <a href="" className="give-classes">
-        <img src={giveClassesIcon} alt="Estudar"/>
-        Estudar
+                    </a>
 
-    </a>
+                    <a href="" className="give-classes">
+                        <img src={giveClassesIcon} alt="Estudar" />
+                        Estudar
 
+                    </a>
 
-</div>
+                </div>
 
-<span className="total-connections">
-
-Total de 200 conexões ja realizadas<img src={purpleHeartIcon} alt="Coração roxo"/>
-
-</span>
+                <span className="total-connections">
+                    Total de 200 conexoes ja realizadas<img src={purpleHeartIcon} alt="Coração roxo"/>
+                </span>
 
 
-
+    </div>
 
 </div>
-
-</div>
-
-
-</div>
-
 
 )
 
